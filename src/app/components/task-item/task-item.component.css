@@ -1,6 +1,6 @@
 .task{
-	background-color: #e4e4e4;
-	border-radius: 10px;
+	background-color: #f4f4f4;
+	border-radius: 2px;
 	padding: 20px;
 	margin: 5px 0;
 	cursor: pointer;
@@ -12,7 +12,7 @@
 	align-items: center;
 }
 
-.task.remainder{
-	border-left: 5px solid green;
+.task.reminder{
+	border-left: 5px solid orange;
 }
 
