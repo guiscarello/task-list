@@ -1,16 +1,16 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Ivesti adalpoo oooada",
-      "date": "Agosto 18 a las 02:00",
-      "reminder": true
+      "text": "ada",
+      "date": "24/12/1989",
+      "reminder": false,
+      "id": 4
     },
     {
-      "id": 3,
-      "text": "Ivesti adalpoo oooada",
-      "date": "Agosto 18 a las 02:00",
-      "reminder": false
+      "text": "Hacer algo",
+      "date": "15 Noviembre a las 22:00",
+      "reminder": true,
+      "id": 6
     }
   ]
 }

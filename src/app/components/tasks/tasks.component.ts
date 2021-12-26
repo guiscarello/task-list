@@ -29,5 +29,11 @@ export class TasksComponent implements OnInit {
     task.reminder = !task.reminder;
     this.taskService.updateReminder(task).subscribe();
   }
+  
+  addTask(task:Task){
+    this.taskService.addTask(task).subscribe(task => {
+      this.tasks.push(task);
+    });
+  }
 
 }
